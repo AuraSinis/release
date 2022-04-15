@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	cloud.google.com/go/storage v1.21.0
-	github.com/GoogleCloudPlatform/testgrid v0.0.38
+	github.com/GoogleCloudPlatform/testgrid v0.0.134
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/cheggaaa/pb/v3 v3.0.8
 	github.com/go-git/go-git/v5 v5.4.2
@@ -37,7 +37,7 @@ require (
 	golang.org/x/text v0.3.7
 	google.golang.org/api v0.74.0
 	gopkg.in/yaml.v2 v2.4.0
-	sigs.k8s.io/bom v0.2.3-0.20220329054911-dcaf42546717
+	sigs.k8s.io/bom v0.1.0
 	sigs.k8s.io/mdtoc v1.1.0
 	sigs.k8s.io/promo-tools/v3 v3.4.0
 	sigs.k8s.io/release-sdk v0.8.0
@@ -48,6 +48,7 @@ require (
 
 require (
 	bitbucket.org/creachadair/shell v0.0.6 // indirect
+	bitbucket.org/creachadair/stringset v0.0.9 // indirect
 	cloud.google.com/go v0.100.2 // indirect
 	cloud.google.com/go/compute v1.5.0 // indirect
 	cloud.google.com/go/iam v0.3.0 // indirect
@@ -106,7 +107,6 @@ require (
 	github.com/cncf/xds/go v0.0.0-20211130200136-a8f946100490 // indirect
 	github.com/cockroachdb/apd/v2 v2.0.1 // indirect
 	github.com/common-nighthawk/go-figure v0.0.0-20210622060536-734e95fb86be // indirect
-	github.com/containerd/containerd v1.5.10 // indirect
 	github.com/containerd/stargz-snapshotter/estargz v0.11.0 // indirect
 	github.com/coreos/go-oidc/v3 v3.1.0 // indirect
 	github.com/coreos/go-semver v0.3.0 // indirect
@@ -119,8 +119,6 @@ require (
 	github.com/docker/distribution v2.8.0+incompatible // indirect
 	github.com/docker/docker v20.10.12+incompatible // indirect
 	github.com/docker/docker-credential-helpers v0.6.4 // indirect
-	github.com/docker/go-connections v0.4.0 // indirect
-	github.com/docker/go-units v0.4.0 // indirect
 	github.com/dustin/go-humanize v1.0.0 // indirect
 	github.com/emicklei/proto v1.6.15 // indirect
 	github.com/emirpasic/gods v1.12.0 // indirect
@@ -227,7 +225,6 @@ require (
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.0.3-0.20220114050600-8b9d41f48198 // indirect
 	github.com/opentracing/opentracing-go v1.2.0 // indirect
-	github.com/package-url/packageurl-go v0.1.1-0.20220203205134-d70459300c8a // indirect
 	github.com/pelletier/go-toml v1.9.4 // indirect
 	github.com/pierrec/lz4 v2.6.1+incompatible // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
